@@ -1,0 +1,72 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+.output/
+.astro/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.production
+.env.local
+.env.development
+
+# macOS-specific files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Astro generated types
+.astro/
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Cloudflare
+.cloudflare/
+
+# Temporary files
+.temp/
+.tmp/
+
+# Cache
+.cache/
+*.cache
+
+# Coverage reports
+coverage/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other
+*.log
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
