@@ -28,7 +28,15 @@ export function processUserMessage(message: string): string {
         "• Que tu firewall no esté bloqueando Minecraft\n" +
         "• Que tu conexión a internet sea estable"
     }
-  
+
+    // ===== SALUDO =====
+    else if (
+      input.includes("hola") ||
+      input.includes("buenas") 
+    ){
+     response = 
+        "Hola, en que lo puedo ayudar hoy?" 
+    }
     // ===== RENDIMIENTO =====
     else if (
       input.includes("lag") ||
